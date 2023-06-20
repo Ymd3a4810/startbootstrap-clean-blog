@@ -11,7 +11,9 @@ https://qiita.com/tatane616/items/aec00cdc1b659761cf88
 ※ 今ある変更を保存する場合: `git stash save　"一時保存"`
 https://qiita.com/chihiro/items/f373873d5c2dfbd03250
 
-
+5. `git add something`
+6. `git commit -m "message"`
+7. `git push origin develop`
 --------------
 
 # [Start Bootstrap - Clean Blog](https://startbootstrap.com/theme/clean-blog/)
