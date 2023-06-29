@@ -1,3 +1,33 @@
+# 6/29
+row => 行
+col => 列
+
+### カラム幅の調整
+https://websae.net/twitter-bootstrap-grid-system-21060224/
+
+
+# 6/20
+## githubのブランチの運用
+https://docs.github.com/ja/get-started/quickstart/github-flow
+https://qiita.com/tatane616/items/aec00cdc1b659761cf88
+
+1. githubのbranchesからnewBranchでブランチを作成
+2. リモートリポジトリの一覧を取得: `git fetch` 
+3. ローカルにチェックアウト: `git checkout -b develop origin/develop`
+4. ステータスを確認: `git status`
+
+git checkout -b develop origin/main
+
+※ 今ある変更を保存する場合: `git stash save　"一時保存"`
+https://qiita.com/chihiro/items/f373873d5c2dfbd03250
+
+5. `git add something`
+6. `git commit -m "message"`
+7. `git push origin develop`
+8. git hubのpull requestsの一覧から、baseをmaster compareをdevelopにして、newPullRequetをする
+--------------
+
+
 # [Start Bootstrap - Clean Blog](https://startbootstrap.com/theme/clean-blog/)
 
 [Clean Blog](https://startbootstrap.com/theme/clean-blog/) is a stylish, responsive blog theme for [Bootstrap](https://getbootstrap.com/) created by [Start Bootstrap](https://startbootstrap.com/). This theme features a blog homepage, about page, contact page, and an example post page along with a working PHP contact form.
